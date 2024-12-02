@@ -1,0 +1,47 @@
+.nav-item:hover {
+  background-color: pink;
+}
+
+.nav-item {
+  color: blueviolet;
+  background-color: rgb(174, 156, 211);
+}
+
+.current-selection {
+  background-color: pink;
+}
+
+.store-info {
+  background-color: #e3f2fd;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#info-block {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#welcome {
+  text-align: center;
+}
+
+#dual-image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dancing-script-info {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#welcome-tnt {
+  color: blueviolet;
+}
+
+#store-info-img {
+  padding-left: 175px;
+}
