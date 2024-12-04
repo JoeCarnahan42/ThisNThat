@@ -40,8 +40,21 @@
 
 #welcome-tnt {
   color: blueviolet;
+  font-size: 100px;
 }
 
 #store-info-img {
   padding-left: 175px;
+}
+
+#store-hours {
+  background-color: rgb(231, 224, 160);
+}
+
+#hours-footer {
+  text-align: center;
+}
+
+#footer-email {
+  margin-left: 200px;
 }
