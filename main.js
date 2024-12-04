@@ -19,3 +19,12 @@ document.getElementById('body').addEventListener('click', function(e) {
   }
 })
 
+
+addEventListener('DOMContentLoaded', function() {
+  const hours = ['CLOSED', 'CLOSED', '10AM - 6PM', '10AM - 6PM', '10AM - 6PM', '10AM - 6PM', '10AM - 3PM']
+  const today = new Date().getDay()
+  
+  const storeHours = document.getElementById('store-hours')
+  
+  storeHours.textContent = `Todays Hours: ${hours[today]}`
+})
